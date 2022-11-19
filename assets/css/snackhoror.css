@@ -8,8 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: blody;
+  font-weight: 10;
   color: #fff;
   background: url("../img/s4.jpg") top center no-repeat;
   background-size: cover;
@@ -32,6 +36,7 @@ body::before {
   }
 }
 
+
 a {
   color: #fb0000;
   text-decoration: none;
@@ -48,7 +53,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-weight: 0;
+  font-family: blody;
 }
 
 #main {
@@ -101,7 +107,7 @@ h6 {
 #header h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 56px;
   color: #fff;
 }
@@ -126,14 +132,14 @@ h6 {
 }
 
 #header .countdown div h3 {
-  font-weight: 700;
+  font-weight: 100;
   font-size: 44px;
   margin-bottom: 15px;
 }
 
 #header .countdown div h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 @media (max-width: 575px) {
@@ -150,7 +156,7 @@ h6 {
 
   #header .countdown div h4 {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 100;
   }
 }
 
@@ -161,7 +167,7 @@ h6 {
 
 #header .subscribe h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 100;
   color: #fff;
   position: relative;
   padding-bottom: 12px;
@@ -535,7 +541,7 @@ section {
   background: rgba(19, 19, 19, 0.4);
   padding: 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
 }
 
@@ -546,10 +552,15 @@ section {
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   color: #fff;
 }
 
 #footer .credits a {
   color: #fb0000;
+}
+
+@font-face {
+  font-family: blody;
+  src: url(Bloody\ terror\ TTF.ttf);
 }
